@@ -1,0 +1,5 @@
+[deploy]
+startCommand = "python -m rh_agent.cli worker"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
+
